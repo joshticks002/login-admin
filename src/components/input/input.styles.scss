@@ -1,4 +1,10 @@
 .simpleInput {
+    .simpleText {
+        font-size: 1.2rem;
+        color: #21334f;
+        font-weight: bold;
+        margin: 0;
+    }
     .simple {
         width: 100%;
         height: 40px;
@@ -9,15 +15,11 @@
         color: #2c3f5f;
         font-weight: 200;
         margin-top: 8px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
     }
     .simple:focus {
-        border: 1px solid #50b051;
-        outline-color: #bbe6bc;
-    }
-    .simpleText {
-        font-size: 1.2rem;
-        color: #21334F;
-        font-weight: bold;
+        border: 1px solid #b08e50;
+        outline-color: #e6e0bb;
     }
 }

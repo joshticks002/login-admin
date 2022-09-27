@@ -1,0 +1,33 @@
+.signup-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font: inter;
+    .first {
+        flex: 5;
+        padding: 50px;
+        .go_back {
+            font-weight: bold;
+            margin-top: 32px;
+            font-size: 1.1rem;
+            color: #a87c34;
+        }
+        .reset {
+            font-weight: 600;
+            margin-top: 72px;
+            font-size: 1.9rem;
+            color: #21334f;
+            margin-bottom: 60px;
+        }
+        .form-container {
+            line-height: 0.8rem;
+        }
+    }
+    .second {
+        flex: 7;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

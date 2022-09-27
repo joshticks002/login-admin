@@ -1,9 +1,7 @@
-import './admin.styles.scss'
+import React from "react";
+import "./admin.styles.scss";
 
 const Admin = () => {
-    return (
-        <div>I am the admin</div>
-    )
-}
-
+  return <div className="admin-container">I am the admin Page</div>;
+};
 export default Admin;
