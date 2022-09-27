@@ -6,6 +6,21 @@
     .first {
         flex: 5;
         padding: 50px;
+        .logo {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            font-weight: 500;
+            font-size: 32px;
+            img {
+                width: 75px;
+                height: 48px;
+                margin-right: 12px;
+            }
+            p {
+                color: #21334f;
+            }
+        }
         .go_back {
             font-weight: bold;
             margin-top: 32px;
@@ -14,7 +29,7 @@
         }
         .reset {
             font-weight: 600;
-            margin-top: 72px;
+            margin-top: 32px;
             font-size: 1.9rem;
             color: #21334f;
             margin-bottom: 60px;

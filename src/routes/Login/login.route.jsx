@@ -74,7 +74,10 @@ const Login = () => {
   return (
     <div className="signin-container">
       <div className="first">
-        <div className="logo"></div>
+        <div className="logo">
+          <img src="/assets/images/rmt-logo.png" alt="a logo" />
+          <p>Parcifer</p>
+        </div>
         <p className="login-account">Already have an account?</p>
         <form className="form-container" onSubmit={handleSubmit}>
           <FormInput

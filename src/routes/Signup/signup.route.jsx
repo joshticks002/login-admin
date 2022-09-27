@@ -77,6 +77,10 @@ const SignUp = () => {
         <Link to="/" style={{ textDecoration: "none" }}>
           <p className="go_back">Go back to login</p>
         </Link>
+        <div className="logo">
+          <img src="/assets/images/rmt-logo.png" alt="a logo" />
+          <p>Parcifer</p>
+        </div>
         <p className="reset">Don't have an account?</p>
         <form className="form-container" onSubmit={handleSubmit}>
           <FormInput
